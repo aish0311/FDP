@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Example of Form tags</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1 align="center">Registration Form</h1>
+        <form method="post" action="submit.html">
+            <table border="2" cellspacing="0" cellpadding="5" width="80%" align="center">
+                <tbody>
+
+                <tr>
+                        <td>
+                             <label>User Name : </label>
+                        </td>
+                        <td> 
+                            <input type="text" id="uname" name="username" minlength="2"  size="50" 
+                            maxlength="20" placeholder="Enter your name" required>
+                           <!--readonly=" "-->  
+                        </td>  
+                 </tr>
+
+                <tr>
+                    <td>
+                        <label>Email : </label>
+                    </td>
+                   <td> 
+                       <input type="email" id="email" name="email" 
+                        placeholder="Enter your Email address" required>
+                   </td>  
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Conatct No. : </label>
+                    </td>
+                   <td> 
+                       <input type="number" id="conatctno" name="cotactno" maxlength="10" size="10"
+                        placeholder="Enter your Phone number" required>
+                   </td>  
+                </tr>
+              
+               <tr>
+                    <td>
+                    </label>Hobby : </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="checkhobby[]"/>Reading
+                        <input type="checkbox" name="checkhobby[]"/>Shopping
+                        <input type="checkbox" name="checkhobby[]"/>Teaching
+                        <input type="checkbox" name="checkhobby[]"/>Dancing
+                    </td>
+                </tr>
+
+                <tr>
+                        <td>
+                            </label>City : </label>
+                        </td>
+                        <td>
+                            <select name="city">
+                                <option value="1" >baroda</option>
+                                <option selected>surat</option>
+                                <option value="" >goa</option>
+                                <option value="" >diu</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Birth date : </label>
+                    </td>
+                    <td>
+                        <input  type="date" id="bod" name="bod">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Favourite Color : </label>
+                    </td>
+                    <td>
+                        <input type="color" id="color" name="color" required>
+                    </td>
+
+                </tr>
+
+                <tr>
+                        <td>
+                            <label>Password : </label>
+                        </td>
+                        <td>
+                            <input type="password" name="pass" placeholder="*********" required>
+                        </td>
+                </tr>
+
+                <tr>
+                        <td>
+                         <label> Rating about this form ? </label>   
+                        </td>
+                        <td>
+                            <input type="range" name="rate" id="rating">
+                        </td>     
+                </tr>
+
+                <tr>
+                       <td colspan="2" align="center">
+                           <input type="Submit"  name="" ></td>
+                   
+                </tr>
+
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
