@@ -1,0 +1,35 @@
+
+    /*div:hover{
+        background-image:url('../image/download4.jfif');
+        font-size: 20px;
+        font-weight: bolder;
+    } */
+
+    body{
+        background-color: pink;
+    }
+    .service
+    {
+        height: auto;
+        width:30%;
+        background-color: white;
+        background-size: cover;
+        border-radius: 5px;
+        float:left;
+        margin: 10px;
+        box-shadow: 5px 2px 10px purple;
+        /*text-shadow: 2px 10px royalblue;*/
+    }
+    .img-service{
+        height: 300px;
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .service-details
+    {
+        padding: 20px;
+    }
+    #service,.service-details h1{
+        text-shadow: 2px 10px royalblue;
+        
+    }
