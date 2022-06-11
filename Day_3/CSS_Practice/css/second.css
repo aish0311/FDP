@@ -1,0 +1,55 @@
+
+ul li{
+    height: 250px;
+    margin: 20px;
+    width: 50px;
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+    background-color:skyblue;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+    position:relative;
+    background-color: plum;
+    width: 100%;
+}
+header{
+    height: 250;
+    background-color: skyblue;
+}
+li:hover{
+    background-color: lightgreen;
+}
+li:active{
+    background-color:darkorange;
+}
+.div1{
+
+    height: 50vh;
+    width: 40%;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+    float: left;
+   
+}
+body{
+    background-color: gray;
+}
+.img{
+    height: 250px;
+    width: 90%;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+
