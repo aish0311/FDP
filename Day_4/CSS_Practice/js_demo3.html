@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Demo of Java Script</title>
+        <link rel="stylesheet" type="text/css" href="../CSS_Practice/CSS/js_task1.css"></style>
+        <script type="text/javascript">
+   
+        //document.write("<h1>Your details ...</h1>");
+        //console.log("this will print log");
+        //prompt("enter value !!!");
+        //alert(name);
+    
+        function printname()
+        {
+            var name=prompt("enter your name");
+            document.getElementById("printname").innerHTML="<h1>Welcome Your name is:</h1>" + name;
+          
+        }
+       
+        function bgcolor()
+        {
+            var color=prompt("enter ur fav color");
+            document.body.style.backgroundColor=color;
+        }
+
+    </script>
+    </head>
+    <body>
+        
+        <button onclick="printname()"> Enter Name </button>
+        <span id="printname"></span>
+        
+        <button onclick="bgcolor()">BG Colour </button>
+        <span id="bgcolor"></span>
+
+        
+    </body>
+    </html>

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: myfirstfont1;
+    
+    src: url(../font/Panipuri.ttf);
+    
+}
+
+@font-face {
+    font-family:myf;
+    src: url(../font/Westwood\ Studio.ttf);
+}
+h1{
+    font-family: myfirstfont1;
+}
+
+p{
+    font-family: myf; 
+}
+
