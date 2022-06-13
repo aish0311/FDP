@@ -1,0 +1,62 @@
+
+.mainhead{
+   background-color: darkblue;
+   color: antiquewhite;
+   height: 50px;
+   font-size: 20px;
+  
+}
+.w80{
+    width:70%;
+    float: left;
+}
+.w20{
+    width:20%;
+    float: right;
+}
+.logo-img
+{
+    float: left;
+    height: 100px;
+    width: 10%;
+    
+}
+.title{
+    width: fit-content;
+    height:20px;
+    align:center;
+    margin: 8px auto;
+    line-height: 0px;
+}
+.help-no{
+    float: right;
+    width: 15%;
+    height: 70px;
+}
+.menu ul {
+    background-color: darkblue;
+    color: antiquewhite;
+    height: 50px;
+    font-size: 20px;  
+}
+.menu li{
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    line-height: 60px;
+    width:100%;
+    margin: 20px;
+}
+.t1{
+    border-color:rebeccapurple;
+
+}
+
+
+
+
+
+
+
+   
+
